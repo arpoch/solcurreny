@@ -13,6 +13,26 @@ Solana is the fastest blockchain in the world which boasts sub-second transactio
 
 ## How to start
 
+1. Clone project
 ```
-git clone 
+git clone https://github.com/arpoch/solcurreny.git
 ```
+
+2. Change directory to project folder
+```
+cd solcurrency
+```
+
+3. Install dependencies
+```
+npm install
+```
+
+4. Run
+```
+npm start
+```
+
+## Contributions
+
+Feel free to open an issue related to the documentation or the code. Please don't not remove any comments nor change the formatting of the code.
