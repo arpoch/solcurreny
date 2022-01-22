@@ -1,5 +1,7 @@
 # Minting SPL-Token using Javascript
 
+![connected-to-wallet](images/connected-to-wallet-token-minted.png)
+
 Solana is the fastest blockchain in the world which boasts sub-second transaction speeds. In this project we will create our own token on Solana using Javascript by creating a web application.
 
 ## What to do?
