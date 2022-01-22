@@ -10,7 +10,7 @@ export default function Balance({ connection, provider }) {
             .catch(err => console.error(err));
         console.log(bal);
         setExRate(144.03);
-        setBalance(bal / LAMPORTS_PER_SOL * exRate);
+        setBalance(bal / LAMPORTS_PER_SOL);
     };
     getBalance();
     return (
@@ -18,7 +18,7 @@ export default function Balance({ connection, provider }) {
             {
                 balance > 0 ?
                     <p>
-                        Balance: {balance}
+                        Balance: {balance} SOL
                     </p>
                     : <p>
                         Balance: loading...
