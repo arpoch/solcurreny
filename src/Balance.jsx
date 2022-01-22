@@ -21,7 +21,7 @@ export default function Balance({ connection, provider }) {
                         Balance: {balance}
                     </p>
                     : <p>
-                        Balance: ...
+                        Balance: loading...
                     </p>
             }
         </>
